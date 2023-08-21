@@ -1,12 +1,19 @@
 
 # Anotações Entra21 2023 Curso de React professor Ivan J. Borchardt
 
-## github
+
+## Aula 18-08-23
+    - Revisão do github
+    - Inicio da tema HTML
+
+
+## Aula 21-08-23
+    - HTML - Revisão
+        - 
 
 
 
-
-------------------------------------------------------------------------
-## HTML
-
-Aula 21-08-23
+    - HTML -
+    - HTML -
+    - HTML -
+    - HTML -
