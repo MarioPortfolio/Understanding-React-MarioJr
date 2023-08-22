@@ -1,15 +1,14 @@
-
 # Anotações Entra21 2023 Curso de React professor Ivan J. Borchardt
 
-
 ## Aula 18-08-23
+
     - Revisão do github
     - Inicio da tema HTML
 
-
 ## Aula 21-08-23
+
     - HTML - Revisão
-        - 
+        -
 
 
 
@@ -21,14 +20,14 @@
         - Na mesma camada hierarquica criar as pastas ccs, js, paginas, assets
         - Dentro da pasta assets criar a pasta videos, audio, imagens.
         - camelcase
-        
+
 
 
 
     - HTML - Imagens
         - <link rel="icon" type="endereço da iamgem" href="endereço relativo da imagem com barra invertida">
 
-        - testar 
+        - testar
             - Imagem dentro de 2 pastas
             - Imagem dentro de uma pasta
             - controlar tamanho da imagem
@@ -49,14 +48,23 @@
         - tem 3 estado
             - azul = não foi visitado
             -vermelho =
-            -roxo = link visitado        
+            -roxo = link visitado
 
     - HTML - link (link para u mbookmark da propria pagina)
 
         - <p><a href="#titulo"> Link para o top da pagina </a></p>
         - id="titulo" = nunca repetir o id em uma pagina = rola a pagina até essa marcação.
-                  
 
-    
+    - Exercicio
+        -Site da bandeira
 
-## Aula 22-08-23
+## Aula 7 22-08-23
+
+    - Correção do exercio da bandeira
+
+    -  Identação = recuo do codigo
+        - botão direito > format document = para formatar automatico
+
+    - tag div = container (chamada de caixa) = usa-se quando tem vários elementos.
+    - span = caixa sem signifido, circulo um trecho de um texto para formatar.
+
