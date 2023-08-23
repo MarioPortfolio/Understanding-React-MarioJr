@@ -69,3 +69,10 @@
     - span = caixa sem signifido, circulo um trecho de um texto para formatar.
 
     - Refatorar = reescrever o codigo
+
+## Aula 8 23-08-23
+
+    -Revisão aula
+        -Tags semanticas =  Que tem um significo especifico - div / 
+        -Tags não semanticas = Não possui um significado especifico.
+        -Tags estruturais = section / div / footer / article / aside / span / main e outras.
