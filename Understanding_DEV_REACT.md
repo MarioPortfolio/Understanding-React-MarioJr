@@ -31,7 +31,7 @@
             - Imagem dentro de 2 pastas
             - Imagem dentro de uma pasta
             - controlar tamanho da imagem
-                - ex: <img src="endereço da imagem" alt="nome da imagem" title="Nome da imagem" width="150" height="50">
+                - ex: <img src="endereço da imagem" alt="nome da imagem" - - - - -title="Nome da imagem" width="150" height="50">
                     - alt = Idenficação da imagem quando ela não carrega, buscadores usam para indexar
                     - title = Ao passar o mouse pela iamgem é mostrado um nome.
                     - tag img possue alto fechamento
@@ -68,3 +68,4 @@
     - tag div = container (chamada de caixa) = usa-se quando tem vários elementos.
     - span = caixa sem signifido, circulo um trecho de um texto para formatar.
 
+    - Refatorar = reescrever o codigo
