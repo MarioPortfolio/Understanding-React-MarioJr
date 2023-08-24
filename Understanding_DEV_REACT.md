@@ -72,7 +72,23 @@
 
 ## Aula 8 23-08-23
 
-    -Revisão aula
-        -Tags semanticas =  Que tem um significo especifico - div / 
-        -Tags não semanticas = Não possui um significado especifico.
-        -Tags estruturais = section / div / footer / article / aside / span / main e outras.
+    - Revisão aula
+    - Tags semanticas =  Que tem um significo especifico - div / 
+    - Tags não semanticas = Não possui um significado especifico.
+    - Tags estruturais = section / div / footer / article / aside / span / main e outras.
+
+## Aula 9 - 24-08-23
+
+    - Revisão aula anterior
+        - seletor de ID, seletores de class, 
+            - class posso aplicar mais de uma classe.
+
+        - Disposição na tela
+            - Display inline
+            - Display block
+            - Html Block (div) = ocupa 100% espaço horizontal no body, força uma quebra de linha no final
+            - Span = ocupa a largura do objeto
+
+        - Divisão = QUando precisamos mexer no laytou que ocupa várias divições diferentes. 
+            - 
+
