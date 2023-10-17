@@ -9,14 +9,126 @@ var soma = eval("2 + 2")
 
 
 
+Aula 17/10/23
+
+    typeof (analise o tipo da variavel )
+    -------------------------------------------------------------------------------------------------
+    
+    > maior
+    < menor
+    >= maior ou igual
+    <= menor ou igual
+    == igual (analise o valor)
+    === igual (analise o valor e tipo  ex: string, number...) 
+    != diferente
+    !== desigual restrito (são de tipos diferente, mas o valor interno é igual)
+
+    -------------------------------------------------------------------------------------------------
+    
+    > 5 > 2  true
+    > 8 > 4  true
+    > 8 < 4  false
+
+    > var a = 8
+    > var b = 15
+    > a > b false
+
+    > a < b  true
+    > a <= b - 10  false primeiro se resolve os operadores aritmeticos( - ), depois os relacionais ( <= ) 
+
+    a == b false
+
+    a  != b  ( a é diferente de b?) true
+
+    -------------------------------------------------------------------------------------------------
+
+    Operadores relacionais de identidade 
+
+    5 == 5 true - tem o mesmo valor que o outro
+    5 === '5' false  tem o mesmo valor, mas não tem o mesmo tipo 
+    5 === 5 true
+
+    -------------------------------------------------------------------------------------------------
+
+    Operadores Lógicos
+
+    ! negação
+    && conjunção
+    || dijunção
 
 
+    ! operador de negação (NÂO), é um operador unario, pois tem apenas um operando que ira retornar true ou false.
+        ex: !true  algo não true é false
+            !false algo não false é true
 
 
+    && operador de conjunção (E) é um operador binario, pois possue 2 operando um de cada lado.
+        ex:  true  && true  = true   
+             true  && false = false 
+             false && true  = false   
+             false && false = false   
+    
+    || operador de dijunção (OU) é um operador binario, pois possui 2 operando um de cada lado.
+
+        ex: true  || true  = true
+            true  || false = true
+            false || true  = true
+            false || false = false
 
 
+    > var a = 5 
+    > var b =  8
+    
+    > true && false     false
+    > false && true     false
+    > true && true      true
+    > false || false    false
+    > true || false     true
+    > true || true      true  
+    
+    a > b && b % 2 == 0   1º resulver os operadores aritmeticos
+               0   == 0   2º resolver os relacionais
+                  true    3º resolver os logicos
+    a > b && true
+    false && true       = false 
 
 
+    a <= b || b / 2 == 2   1º resulver Não
+                           2º resulver E
+                           3º resulver OU
+
+
+    idade >= 15 && idade <= 17       idade entre 15 e 17?
+    estado == 'RJ' || estado == 'SP' estado é igual a RJ ou SP?    
+    salario > 1500 && sexo != 'Masculino'    salario é maior 1500 e não é homem?        
+    
+    -------------------------------------------------------------------------------------------------  
+    Operador Ternario
+
+    Recebe esse por trabalhar com 3 parte
+
+    teste ? treu : false
+
+    > var media = 5.5
+
+    > media > 7 ? "Aprovado" : " Reprovado"  =  ' Reprovado'
+    > media += 3  =    8.5 = alterou media para 8.5
+    > media > 7 ? "Aprovado" : " Reprovado"  =   'Aprovado'
+    
+
+    > var x = 8
+    
+    > var res = x % 2 == 0 ? 5 : 9
+    
+    > res resultado 5
+   
+    ----------------------------------------------
+    
+    > var idade = 19
+    
+    > var r = idade >= 18 ? 'Maior' : 'Menor'
+   
+    > r  resultado 'Maior'
 
 
 
@@ -24,3 +136,5 @@ var soma = eval("2 + 2")
 
 
 -->
+
+
